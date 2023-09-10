@@ -64,7 +64,7 @@ root = tk.Tk()
 root.title("Password Manager")
 
 # Create labels and entry fields with increased font size
-font_size = 22
+font_size = 22  # Reduced the font size for better readability
 
 website_label = tk.Label(root, text="Website:", font=("Helvetica", font_size))
 website_label.pack(pady=5)
